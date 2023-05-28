@@ -1,0 +1,178 @@
+*{
+    background-color: rgba(169, 49, 49, 0);
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto Mono';
+    
+}
+@font-face {
+    font-family: 'titrbold';
+    src: url('titr-webfont.woff2') format('woff2'),
+         url('titr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.mainimg {
+
+    height: 60vh;
+    width: auto;
+    margin-left: 25px;
+}
+.title{
+    position:absolute;
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0);
+    width: 40%;
+    height: 100px;
+    padding-left: 20px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-family:'Roboto Mono';
+}
+.title2{
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    padding-right: 25px;
+    background-color: rgba(0, 0, 255, 0);
+    width: 50%;
+    height: 100px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-family:'titrbold';
+}
+.links{
+    display: block;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0);
+    padding: 5px;
+    width: 30%;
+    height: fit-content;
+    position: absolute;
+    left: 35%;
+}
+.info{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    font-family: 'roboto mono';
+    cursor: pointer;
+    color: black;
+
+}
+.cv{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'roboto mono';
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 25px;
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0);
+}
+.contenttwo{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0);
+}
+.bio {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35%;
+
+}
+.biotwo {
+    margin-top: 10px;
+}
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.comingsoon{
+    display: block;
+    width: fit-content;
+    font-size: 40px;
+    font-family: 'roboto mono';
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.cvlink {
+    margin-top: 15px; 
+    color: black;
+    font: bold;
+}
+.coverimg {
+    margin-top: 25px;
+    width: 60%;
+    height: auto;
+}
+.contentimg {
+    width: 35%;
+    height: auto;
+
+}
+.poemtext {
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+}
+.englishpoem {
+    font-weight: bold;
+    text-align: left;
+}
+.persianpoem {
+font-weight: bold;
+    text-align: right;
+}
+.contentworks{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 200px;
+    padding-left: 35px;
+    width: 100%;
+}
+.pikaimg {
+
+    width: 25%;
+    margin-right: 50px;
+    height: auto;
+    display: absolute;
+
+}
+.pikaimgholder {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 40px;
+}
+.mediumfamily {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.mediumsafety {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
