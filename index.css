@@ -112,7 +112,7 @@ img{
     font-family: 'roboto mono';
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 .cvlink {
     margin-top: 15px; 
@@ -175,4 +175,24 @@ font-weight: bold;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+.contentleaksimg {
+    width: 100%;
+    height: auto;
+}
+.myvideo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 43%;
+    margin-top:670PX;
+    color:rgb(255, 255, 255);
+    background-color: black;
+}
+.linkswork {
+color: black;
 }
