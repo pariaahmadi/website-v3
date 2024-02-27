@@ -269,7 +269,15 @@ color: black;
     
     }
     .infotwo {
-        width: 100%;
+        
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        margin: auto;
+        margin-top: 15px;
+        font-family: 'roboto mono';
+        cursor: pointer;
+        color: black;
     }
     .cv{
         width: fit-content;
